@@ -19,6 +19,6 @@ def get_embedding(text):
     return response.data[0].embedding
 
 
-empbedding = get_embedding("cat")
-pprint(empbedding)
-print(len(empbedding))
+# empbedding = get_embedding("cat")
+# pprint(empbedding)
+# print(len(empbedding))
